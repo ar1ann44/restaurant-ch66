@@ -5,12 +5,12 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: beige;
+    background-color: rgb(244, 235, 188);
 }
 
 /*utilities*/
 .container {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,9 +22,9 @@ body {
 }
 
 .menu-table th{
-    width: 200%;
+    width: 20%;
     height: 50px;
-    background-color: black;
+    background-color: rgb(142, 19, 19);
     color: white;
     text-align: center;
 }
