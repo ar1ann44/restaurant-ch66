@@ -4,8 +4,23 @@
     margin: 0;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     background-color: rgb(244, 235, 188);
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*menu*/
+.menu a {
+    color: black;
+    margin-right: 30px;
+    font-weight: bold;
 }
 
 /*utilities*/
@@ -14,6 +29,62 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.menu .link-hl {
+    color: rgb(142, 19, 19);
+
+}
+
+/*header*/
+.site-init {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.dish-month-container {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.dish-month-text {
+    width: 150%;
+}
+
+.text-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    
+}
+
+.btn {
+    background-color: rgb(142, 19, 19);
+    color: white;
+    padding: 10px;
+}
+
+.text-sm{
+    font-size: 14px;
+}
+
+.text-lg {
+    font-size: 20px;
+}
+
+.all-dishes-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+.dish-item {
+    border: 1px solid rgb(142, 19, 19);
+}
+
 
 /*menu.html*/
 .menu-table, th, td {

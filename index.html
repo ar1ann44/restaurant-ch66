@@ -4,22 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+    
     <title>My Restaurant</title>
 </head>
 <body>
 
-    <header>
+    <header class="site-init">
+        <div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
         <div>
             <h1>Midnight Ramen</h1>
+
         </div>
+
         <nav class="menu">
-            <a href="index.html">Home</a>
+            <a class="link-hl" href="index.html">Home</a>
             <a href="menu.html">Menu</a>
             <a href="go.html">To go</a>
         </nav>
+        <div>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+        </div>
     </header>
 
-    <main>
+    <main class="container">
+        <div class="dish-month-container">
+            <div class="dish-month-img">
+                <img src="img/ramen3.png" alt="ramen">
+            </div>
+            <div class="dish-month-text">
+                <h2>Spicy Garlic Ramen</h2>
+                <p class="text-sm">Bold chili broth with roasted garlic and tender pork slices.</p>
+                
+                <div class="text-flex">
+                    <p class="text-lg">$17.99</p>
+                    <a class="btn" href="#">Order now!</a>
+                </div>
+
+
+            </div>
+        </div>
+        
+        <div class="all-dishes-container"> 
+
+            <div class="dish-item">
+                <img src="img/sho.png" alt="tonkotsu">
+                <p>$16.99</p>
+                <h3>Tonkotsu Ramen</h3>
+                <p>Creamy pork bone broth with chashu and soft egg.</p>
+            </div>
+
+            <div class="dish-item">
+                <img src="img/sho.png" alt="shoyo">
+                <p>$15.50</p>
+                <h3>Shoyu Ramen</h3>
+                <p>Soy sauce broth with pork, bamboo, and scallions.</p>
+            </div>
+
+            <div class="dish-item">
+                <img src="img/sho.png" alt="shoyo">
+                <p>$15.99</p>
+                <h3>Miso Ramen</h3>
+                <p>Savory miso broth with ground pork and corn.</p>
+            </div>
+
+            <div class="dish-item">
+                <img src="img/sho.png" alt="shoyo">
+                <p>$14.75</p>
+                <h3>Shio Ramen</h3>
+                <p>Light salted broth with chicken and green onions.</p>
+            </div>
+
+        </div>
+
 
     </main>
 </body>
