@@ -23,6 +23,14 @@ a {
     font-weight: bold;
 }
 
+
+@media (max-width: 600px) {
+    .menu a {
+        display: none;
+    }
+}
+
+
 /*utilities*/
 .container {
     width: 90%;
@@ -53,8 +61,25 @@ a {
     width: 150%;
 }
 
+@media (max-width: 600px) {
+    .dish-month-container {
+        flex-direction: column;
+    }
+
+    .dish-month-img {
+        width: 80%;
+
+    }
+
+    .dish-month-text {
+        width: 80%;
+    }
+}
+
+
+
 .dish-month-img {
-    width: 100%;
+    width: 95%;
 }
 
 
@@ -85,6 +110,15 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .all-dishes-container {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
 }
 
 .dish-item {
@@ -127,6 +161,13 @@ a {
     background-color: rgba(142, 19, 19, 0.377);
     border-radius: 10px;
     padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .form-flex {
+        flex-direction: column;
+        padding: 10px;
+    }
 }
 
 .input-control {
