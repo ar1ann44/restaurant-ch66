@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <title>Menu</title>
 </head>
 <body>
 
-    <header>
+    <header class="site-init">
         <div>
-            <h1>Hikari Ramen</h1>
+            <i class="fa-solid fa-bars"></i>
         </div>
+        <div>
+            <h1>Midnight Ramen</h1>
+
+        </div>
+
         <nav class="menu">
             <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
+            <a class="link-hl"href="menu.html">Menu</a>
             <a href="go.html">To go</a>
         </nav>
+
+        <div>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+        </div>
     </header>
     
     <main class="container">
-        <h2>Menu prices</h2>
-
+        <h2 class="menutitle">Menu prices</h2>
         <table class="menu-table">
             <thead>
                 <tr>
@@ -34,18 +43,28 @@
             <tbody>
                 <tr>
                     <td>Tonkotsu Ramen</td>
-                    <td>Rich and creamy pork bone broth served with fresh noodles, sliced chashu pork, soft-boiled egg, and green onions.</td>
+                    <td>Creamy pork bone broth with chashu and soft egg.</td>
                     <td>$16.99</td>
                 </tr>
                 <tr>
                     <td>Shoyu Ramen</td>
-                    <td>Clear soy sauce-based broth with tender pork, bamboo shoots, nori, and spring onions.</td>
-                    <td>$14.99</td>
+                    <td>Soy sauce broth with pork, bamboo, and scallions.</td>
+                    <td>$15.50</td>
                 </tr>
                 <tr>
                     <td>Miso Ramen</td>
-                    <td>Savory miso broth topped with ground pork, corn, butter, and scallions.</td>
-                    <td>$14.99</td>
+                    <td>Savory miso broth with ground pork and corn.</td>
+                    <td>$15.99</td>
+                </tr>
+                <tr>
+                    <td>Shio Ramen</td>
+                    <td>Light salted broth with chicken and green onions.</td>
+                    <td>$14.75</td>
+                </tr>
+                <tr>
+                    <td>Spicy Garlic Ramen</td>
+                    <td>Bold chili broth with roasted garlic and tender pork slices.</td>
+                    <td>$17.99</td>
                 </tr>
             </tbody>
         </table>
